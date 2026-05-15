@@ -23,22 +23,22 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile.jpg"
+  name             : "Shehbaz Tariq"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I am a postdoctoral researcher at the SIGCOM group, SnT, University of Luxembourg, specializing in Quantum Information Science. My interdisciplinary expertise bridges Artificial Intelligence, Quantum Computing, and Wireless Communications, with a focus on Quantum-Centric Supercomputing and intelligent quantum-enabled systems for next-generation networks."
+  location         : "Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg"
+  employer         : "SIGCOM group"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "shehbaz.tariq@uni.lu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=pOJIAhYAAAAJ&hl=en&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-2701-2725"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "ShehbazTariq"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "shehbaz-tariq"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
