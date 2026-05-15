@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Shehbaz Tariq is a Graduate Research Assistant at CQILAB at Kyung Hee University and a Postdoctoral Researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg.
+I am a postdoctoral researcher at the SIGCOM group, SnT, University of Luxembourg, specializing in Quantum Information Science. My interdisciplinary expertise bridges Artificial Intelligence, Quantum Computing, and Wireless Communications, with a focus on Quantum-Centric Supercomputing and intelligent quantum-enabled systems for next-generation networks.
 
 ORCID: [0000-0003-2701-2725](https://orcid.org/0000-0003-2701-2725)
 
@@ -32,7 +32,7 @@ Selected publications are maintained on ORCID and Google Scholar. The latest pub
 
 ## Research Interests
 
-General research interest is quantum information processing for communication systems, with emphasis on integrating quantum technologies with 6G and future networks, quantum network design and applications, and using large AI models to develop integrated hybrid algorithms for next-generation networks.
+Quantum information processing for communication systems, integrating quantum technologies with 6G and future networks, quantum network design and applications, and large AI models for hybrid next-generation network algorithms.
 
 ## Teaching Interests
 
