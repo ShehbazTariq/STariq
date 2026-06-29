@@ -12,14 +12,10 @@ Gemfile.lock
 node_modules
 package-lock.json
 
-# Ignore LaTeX build intermediates
-cv/*.aux
-cv/*.log
-cv/*.out
-cv/*.pdf
-cv/*.fls
-cv/*.fdb_latexmk
-cv/*.synctex.gz
+# Keep only the editable CV LaTeX sources under cv/
+cv/*
+!cv/CV_Shehbaz.tex
+!cv/config.tex
 
 # Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
