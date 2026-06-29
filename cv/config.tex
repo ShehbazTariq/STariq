@@ -1,0 +1,149 @@
+%\usepackage{nopageno,amssymb,titlesec}
+\usepackage{amssymb,titlesec}
+\usepackage{palatino}
+\usepackage{ifthen}
+\usepackage{color}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumerate}
+%\usepackage{fontawesome5}
+\usepackage{fontawesome}
+%\usepackage{setspace} for \doublespacing for peer-review
+\usepackage{inconsolata}
+\usepackage{graphicx} 
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\footskip}{0.5in}
+\setlength{\textheight}{9in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+
+
+
+\newcommand{\shref}[2]{#1\href{#2}{\, \, \faExternalLink}}
+
+
+\newcommand{\supervision}[4]{%
+  {#2}\\%
+  \emph{#3}, #1
+
+  {#4}
+}
+
+\newcommand{\job}[4]{%
+  {\bfseries #2}\\%
+  \emph{#3}, #1
+
+  {#4}
+}
+
+
+\newcommand{\edu}[4]{%
+  {\bfseries #2}\hfill #1\\%
+  {#3}\\%
+  {#4}
+}
+
+\newcommand{\project}[3]{%
+  {\bfseries {#1}}\\%
+  {#2}
+
+  {#3}
+}
+
+
+\titleformat{\section}[block]
+{\bfseries} {\oldstylenums{\thesection}} {1ex minus .1ex} {\Large}
+\titlespacing{\section}
+{0pt}{*2}{*1}
+
+%% indentation space, space before title, space after title,
+%% *n = plus and minus
+
+\titleformat{\subsection}[block]
+{\bfseries} {\thesection} {1ex minus .1ex} {\large}
+\titlespacing{\subsection}
+{0pt}{*2}{*1}
+
+
+%{0pt}{*3}{*2}[3pc]
+
+
+%\titleformat{\section}[runin]
+%{\normalfont\bfseries} {\S\ \thesection.}{.5em}{}[.---]
+%\titlespacing{\section}
+%{\parindent}{1.5ex plus .1ex minus .2ex}{0pt}
+
+
+\newcommand{\mysection}[1]{%
+  %\vspace{-2mm}
+  {\noindent \bfseries \Large #1%
+
+  }
+}
+
+
+\newcommand{\mysubsection}[1]{%
+  \vspace{2mm}
+  {\noindent \bfseries \large #1%
+
+  }
+}
+
+\newcommand{\myhead}[2]{%
+  {\bfseries {#1}\hspace{2mm}--\hspace{2mm}{#2}%
+  }
+}
+\newenvironment{mylist}{\begin{list}
+    {$\bullet$}
+    {%
+      \setlength{\itemsep}{0.9mm}
+      \setlength{\parsep}{1.0mm}
+      \setlength{\topsep}{0.5mm}
+      \setlength{\partopsep}{1mm}
+      \setlength{\parskip}{1.0mm}
+}}
+    {\end{list}}
+
+% make a note
+\newcommand{\mynote}[1]{\noindent \framebox{$\blacktriangleright$
+    \small{\textsf{#1}}
+    $\blacktriangleleft$}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+
+\hyphenation{pro-cess}
+
+%\doublespacing
+\newcounter{IF} % counter to display impact factor
+\setcounter{IF}{1} % 0: No IF printed, 1: IF printed
+
+%%% IF Values: updated in June 2023
+\newcommand{\IFNC}{16.6} % Nat. Commun
+\newcommand{\IFACCESS}{3.9} % IEEE Access
+\newcommand{\IFQUANTUM}{6.4} % Quantum Journal
+\newcommand{\IFQST}{6.7} % Quantum Science and Technologu
+\newcommand{\IFJSAC}{16.4}
+\newcommand{\IFQIP}{2.5}
+\newcommand{\IFSR}{4.6}
+\newcommand{\IFPRA}{2.9}
+\newcommand{\IFTJEC}{1.1} % Turkish Journal of Electrical and Computer ....
+\newcommand{\IFPTEP}{8.3}
+\newcommand{\IFMPLB}{1.9}
+\newcommand{\IFMTA}{3.6} % Multimedia TOols and Applications
+\newcommand{\IFEPJQT}{5.3} % EPJ Quantum Technology
+\newcommand{\IFOptica}{10.4} % Optica
+\newcommand{\IFTCOM}{8.3} % Transations on communication
+\newcommand{\IFLaPR}{11.0} % Laser & Photonics Reviews
+\newcommand{\IFSENSORS}{3.9}
+\newcommand{\IFIEEENET}{9.3} % IEEE Network
+
+
+
+\newcounter{REF} % counter to display References
+\setcounter{REF}{1} % 0: No References printed, 1: References printed
+
+
